@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AD94941BD9444500D336B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD94931BD9444500D336B0 /* main.m */; };
+		04AD94971BD9444500D336B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD94961BD9444500D336B0 /* AppDelegate.m */; };
+		04AD949D1BD9444500D336B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD949B1BD9444500D336B0 /* Main.storyboard */; };
+		04AD949F1BD9444500D336B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD949E1BD9444500D336B0 /* Assets.xcassets */; };
+		04AD94A21BD9444500D336B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD94A01BD9444500D336B0 /* LaunchScreen.storyboard */; };
+		04AD94AB1BD9452F00D336B0 /* RSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD94AA1BD9452F00D336B0 /* RSSTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04AD94AE1BD979B500D336B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD94AD1BD979B500D336B0 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AD948F1BD9444500D336B0 /* Lesson6RSSParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson6RSSParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AD94931BD9444500D336B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AD94951BD9444500D336B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AD94961BD9444500D336B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AD949C1BD9444500D336B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AD949E1BD9444500D336B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AD94A11BD9444500D336B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AD94A31BD9444500D336B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AD94A91BD9452F00D336B0 /* RSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTableViewController.h; sourceTree = "<group>"; };
+		04AD94AA1BD9452F00D336B0 /* RSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTableViewController.m; sourceTree = "<group>"; };
+		04AD94AC1BD979B500D336B0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04AD94AD1BD979B500D336B0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AD948C1BD9444500D336B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AD94861BD9444500D336B0 = {
+			isa = PBXGroup;
+			children = (
+				04AD94911BD9444500D336B0 /* Lesson6RSSParser */,
+				04AD94901BD9444500D336B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AD94901BD9444500D336B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AD948F1BD9444500D336B0 /* Lesson6RSSParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AD94911BD9444500D336B0 /* Lesson6RSSParser */ = {
+			isa = PBXGroup;
+			children = (
+				04AD94951BD9444500D336B0 /* AppDelegate.h */,
+				04AD94961BD9444500D336B0 /* AppDelegate.m */,
+				04AD94A91BD9452F00D336B0 /* RSSTableViewController.h */,
+				04AD94AA1BD9452F00D336B0 /* RSSTableViewController.m */,
+				04AD94AC1BD979B500D336B0 /* DetailViewController.h */,
+				04AD94AD1BD979B500D336B0 /* DetailViewController.m */,
+				04AD949B1BD9444500D336B0 /* Main.storyboard */,
+				04AD949E1BD9444500D336B0 /* Assets.xcassets */,
+				04AD94A01BD9444500D336B0 /* LaunchScreen.storyboard */,
+				04AD94A31BD9444500D336B0 /* Info.plist */,
+				04AD94921BD9444500D336B0 /* Supporting Files */,
+			);
+			path = Lesson6RSSParser;
+			sourceTree = "<group>";
+		};
+		04AD94921BD9444500D336B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AD94931BD9444500D336B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AD948E1BD9444500D336B0 /* Lesson6RSSParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AD94A61BD9444500D336B0 /* Build configuration list for PBXNativeTarget "Lesson6RSSParser" */;
+			buildPhases = (
+				04AD948B1BD9444500D336B0 /* Sources */,
+				04AD948C1BD9444500D336B0 /* Frameworks */,
+				04AD948D1BD9444500D336B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lesson6RSSParser;
+			productName = Lesson6RSSParser;
+			productReference = 04AD948F1BD9444500D336B0 /* Lesson6RSSParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AD94871BD9444500D336B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Voitenko Daniil";
+				TargetAttributes = {
+					04AD948E1BD9444500D336B0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UN4HT84AGH;
+					};
+				};
+			};
+			buildConfigurationList = 04AD948A1BD9444500D336B0 /* Build configuration list for PBXProject "Lesson6RSSParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AD94861BD9444500D336B0;
+			productRefGroup = 04AD94901BD9444500D336B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AD948E1BD9444500D336B0 /* Lesson6RSSParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AD948D1BD9444500D336B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD94A21BD9444500D336B0 /* LaunchScreen.storyboard in Resources */,
+				04AD949F1BD9444500D336B0 /* Assets.xcassets in Resources */,
+				04AD949D1BD9444500D336B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AD948B1BD9444500D336B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD94971BD9444500D336B0 /* AppDelegate.m in Sources */,
+				04AD94941BD9444500D336B0 /* main.m in Sources */,
+				04AD94AB1BD9452F00D336B0 /* RSSTableViewController.m in Sources */,
+				04AD94AE1BD979B500D336B0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AD949B1BD9444500D336B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AD949C1BD9444500D336B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AD94A01BD9444500D336B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AD94A11BD9444500D336B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AD94A41BD9444500D336B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AD94A51BD9444500D336B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AD94A71BD9444500D336B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lesson6RSSParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Superkachenya.Lesson6RSSParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AD94A81BD9444500D336B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lesson6RSSParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Superkachenya.Lesson6RSSParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AD948A1BD9444500D336B0 /* Build configuration list for PBXProject "Lesson6RSSParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AD94A41BD9444500D336B0 /* Debug */,
+				04AD94A51BD9444500D336B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AD94A61BD9444500D336B0 /* Build configuration list for PBXNativeTarget "Lesson6RSSParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AD94A71BD9444500D336B0 /* Debug */,
+				04AD94A81BD9444500D336B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AD94871BD9444500D336B0 /* Project object */;
+}
